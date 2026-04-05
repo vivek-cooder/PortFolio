@@ -1,0 +1,98 @@
+txt {   
+    color: white;
+}
+
+.container {
+    color: white;
+    margin-top: 63vh;
+    float:  bottom;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Lexend Deca", sans-serif;
+    animation: fadeIn 2s ease-in forwards;
+    animation-timeline: view(900px 0px);
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.lexend-deca {
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+}
+
+#lindin-icon {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 10vh;
+    margin-left: 20px;
+    transition: transform 0.2s ease-in;
+}
+
+#lindin-icon:hover {
+    cursor: pointer;
+    transform: scale(1.3)
+}
+
+#whatsapp-icon {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 5vh;
+    margin-left: 20px;
+    transition: transform 0.2s ease-in;
+}
+
+#whatsapp-icon:hover {
+    cursor: pointer;
+    transform: scale(1.3)
+}
+
+#git-icon {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 5vh;
+    margin-left: 20px;
+    fill: white;
+    transition: transform 0.2s ease-in
+}
+
+#git-icon:hover {
+    cursor: pointer;
+    transform: scale(1.3)
+}
+
+#behance-icon {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 5vh;
+    margin-left: 20px;
+    fill: white;
+    transition: transform 0.2s ease-in
+}
+
+#behance-icon:hover {
+    cursor: pointer;
+    transform: scale(1.3)
+}

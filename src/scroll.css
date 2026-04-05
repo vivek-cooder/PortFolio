@@ -1,0 +1,48 @@
+.scroll-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 60px;
+    border: 3px solid #ffffff;
+    border-radius: 25px;
+    gap: 5px;
+    margin: 20px auto;
+    /* Centers it horizontally */
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    background-color: #fcfcfc;
+    border-radius: 50%;
+    animation: fade-move 1.5s infinite ease-in-out;
+}
+
+/* Staggered animation for the three dots */
+.dot:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.dot:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes fade-move {
+
+    0%,
+    100% {
+        opacity: 0.3;
+        transform: translateY(0);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(4px);
+    }
+}
+
+.scroll-container {
+    margin-top: 150px;
+}
